@@ -28,7 +28,6 @@ const SearchWeather = () => {
     const sunset = moment.utc((city?.sys?.sunset), 'X').add(timezone, 'seconds').format('hh:mm A');
     const timezoneInMinutes = timezone / 60;
     const currTime = moment().utcOffset(timezoneInMinutes).format("dddd, DD-MMMM-yyyy | hh:mm A");
-    console.log(currTime);
     let dayNight;
     const hour = moment().utcOffset(timezoneInMinutes).format("HH");
     if (hour >= 6 && hour <= 19) {

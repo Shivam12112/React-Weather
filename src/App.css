@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+
+html,
 body {
-  font-family: "Charis SIL", serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 .card-img {
-  height: 600px;
+  margin: auto;
+  /* height: 605px; */
+  height: 610px;
+}
+.width {
+  width: 70%;
 }

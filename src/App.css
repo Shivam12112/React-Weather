@@ -9,7 +9,7 @@ body {
 .card-img {
   margin: auto;
   /* height: 605px; */
-  height: 610px;
+  height: 100vh;
 }
 .width {
   width: 70%;
